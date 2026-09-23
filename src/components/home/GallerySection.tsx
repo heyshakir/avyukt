@@ -7,10 +7,9 @@ export const GallerySection: React.FC = () => {
   const { openLightbox } = useOrder();
   const [filter, setFilter] = useState<'all' | 'food' | 'interior' | 'drinks' | 'desserts'>('all');
 
-  const filteredItems = (filter === 'all'
+  const filteredItems = filter === 'all'
     ? galleryItems
-    : galleryItems.filter((item) => item.category === filter)
-  ).slice(0, 8);
+    : galleryItems.filter((item) => item.category === filter);
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">

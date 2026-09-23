@@ -13,7 +13,7 @@ export const AboutSection: React.FC = () => {
         <div className="lg:col-span-5">
           <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-soft aspect-4/3 sm:aspect-square bg-stone-100">
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+              src="/gallery/family-dining-hall.jpg"
               alt="Avyukt Restaurant Dining Hall"
               loading="lazy"
               className="w-full h-full object-cover"

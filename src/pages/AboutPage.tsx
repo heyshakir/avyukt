@@ -50,7 +50,7 @@ export const AboutPage: React.FC = () => {
         <div className="lg:col-span-5 relative">
           <div className="rounded-3xl overflow-hidden shadow-2xl border border-stone-200 aspect-4/5">
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+              src="/gallery/designer-greenery-interior.jpg"
               alt="Avyukt Restaurant Dining Hall"
               className="w-full h-full object-cover"
             />
